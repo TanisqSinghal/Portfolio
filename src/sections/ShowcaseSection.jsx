@@ -16,7 +16,7 @@ const AppShowcase = () => {
     gsap.fromTo(
       sectionRef.current,
       { opacity: 0 },
-      { opacity: 1, duration: 1.5 }
+      { opacity: 1, duration: 1.5 },
     );
 
     // Animations for each app showcase
@@ -38,7 +38,7 @@ const AppShowcase = () => {
             trigger: card,
             start: "top bottom-=100",
           },
-        }
+        },
       );
     });
   }, []);
@@ -49,36 +49,49 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <picture>
+                {/* Mobile image */}
+                <source
+                  media="(max-width: 768px)"
+                  srcSet="/images/project1-libroAi.png"
+                />
+
+                {/* Laptop / Desktop image */}
+                <img src="/images/LibroAi.jpg" alt="App Interface" />
+              </picture>
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                LibroAI is a full-stack AI application that transforms static
+                books into interactive conversational experiences.
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                An App built with Next.js (App Router),React,Tailwind
+                CSS,Backend:Next Server Actions,MongoDB (Mongoose), Clerk,Vercel
+                Blob,Vapi,Deployment: Vercel
               </p>
             </div>
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
+              <div>
                 <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
+                  src="/images/project-ATSight.png"
+                  alt="AI-Powered Resume Analyzer and ATS Scoring Tool"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>AI-Powered Resume Analyzer and ATS Scoring Tool</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+              <div >
+                <img src="/images/Havensite.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>
+                Full-stack booking application using Node.js, Express. js,
+                MongoDB, and EJS
+              </h2>
             </div>
           </div>
         </div>

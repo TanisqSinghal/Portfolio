@@ -184,7 +184,6 @@ const expCards = [
     ],
   },
 ];
-
 const expLogos = [
   {
     name: "logo1",
