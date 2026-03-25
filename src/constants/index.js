@@ -148,41 +148,39 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+      "Tanishak got a Data Science level 1 badge from IBM as Successfully completed the Data science and Machine Learning with IBM working professionals",
+    imgPath: "/images/ibm.png",
+    logoPath: "/images/ibm.png",
+    title: "Data Science and Machine Learning Intern",
+    date: "June 2025 - July 2025",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Performed Exploratory Data Analysis (EDA) and data visualization on structured datasets.",
+      "Built and evaluated regression and clustering models.",
+      "Implemented Decision Trees and Random Forest models for predictive analysis.",
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+      "Currently Working",
+    imgPath: "/images/apna_college_logo.jpeg",
+    logoPath: "/images/apna_college_logo.jpeg",
+    title: "Teaching Assistant",
+    date: "February 2025 - Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Solving Students doubts in Java.",
+      "Debugging student code and providing explanations.",
+      "Maintaining high student ratings and daily targets.",
     ],
   },
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+      "Currently Serving",
+    imgPath: "/images/gdgc.jpg",
+    logoPath: "/images/gdgc.jpg",
+    title: "Technical Team Member",
+    date: "October 2024 - Present",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Collaborating with peers and applying technical skills onpractical projects.",
     ],
   },
 ];
