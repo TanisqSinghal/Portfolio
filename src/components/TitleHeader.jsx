@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const TitleHeader = ({ title, sub }) => {
   return (
@@ -13,4 +13,4 @@ const TitleHeader = ({ title, sub }) => {
   )
 }
 
-export default TitleHeader
+export default TitleHeader;
