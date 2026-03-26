@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 const NavBar = () => {
 
     const [scrolled, setScrolled] = useState(false);
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -16,6 +17,8 @@ const NavBar = () => {
         return () => window.removeEventListener("scroll", handleScroll);
         ;
     }, []);
+
+    const closeMobileMenu = () => setMobileMenuOpen(false);
 
   return (
     <header className={`navbar ${scrolled ? 'scrolled' : 'not-scrolled'}`}>
@@ -41,11 +44,45 @@ const NavBar = () => {
           </ul>
         </nav>
 
-        <a href="#contact" className="contact-btn group">
+        {/* Mobile Hamburger Menu Icon */}
+        <button
+          className="hamburger lg:hidden"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          aria-label="Toggle mobile menu"
+        >
+          <span className={`line line-1 ${mobileMenuOpen ? 'open' : ''}`}></span>
+          <span className={`line line-2 ${mobileMenuOpen ? 'open' : ''}`}></span>
+          <span className={`line line-3 ${mobileMenuOpen ? 'open' : ''}`}></span>
+        </button>
+
+        <a href="#contact" className="contact-btn group hidden lg:flex">
           <div className="inner">
             <span>Contact me</span>
           </div>
         </a>
+
+        {/* Mobile Navigation Menu */}
+        {mobileMenuOpen && (
+          <nav className="mobile-menu">
+            <ul>
+              {navLinks.map(({ link, name }) => (
+                <li key={name}>
+                  <a
+                    href={link}
+                    target={name === "DSA sheet" ? "_blank" : undefined}
+                    rel={name === "DSA sheet" ? "noopener noreferrer" : undefined}
+                    onClick={closeMobileMenu}
+                  >
+                    {name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <a href="#contact" className="contact-btn-mobile" onClick={closeMobileMenu}>
+              Contact me
+            </a>
+          </nav>
+        )}
       </div>
     </header>
   );
