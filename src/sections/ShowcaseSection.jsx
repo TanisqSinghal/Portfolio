@@ -70,6 +70,11 @@ const AppShowcase = () => {
                 CSS,Backend:Next Server Actions,MongoDB (Mongoose), Clerk,Vercel
                 Blob,Vapi,Deployment: Vercel
               </p>
+              <p
+                className="inline-block px-6 py-3 rounded-lg bg-blue-100 text-white-700 font-semibold uppercase text-sm md:text-base hover:opacity-90 transition-all duration-300 mt-4"
+              >
+                contact for access
+              </p>
             </div>
           </div>
 
@@ -82,16 +87,32 @@ const AppShowcase = () => {
                 />
               </div>
               <h2>AI-Powered Resume Analyzer and ATS Scoring Tool</h2>
+              <a
+                href="https://atsight.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 rounded-lg bg-blue-100 text-white-700 font-semibold uppercase text-sm md:text-base hover:opacity-90 transition-all duration-300 mt-4"
+              >
+                View Project
+              </a>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div >
+              <div>
                 <img src="/images/Havensite.png" alt="YC Directory App" />
               </div>
               <h2>
                 Full-stack booking application using Node.js, Express. js,
                 MongoDB, and EJS
               </h2>
+              <a
+                href="https://havensites-project.onrender.com/listings"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 rounded-lg bg-blue-100 text-white-700 font-semibold uppercase text-sm md:text-base hover:opacity-90 transition-all duration-300 mt-4"
+              >
+                View Project
+              </a>
             </div>
           </div>
         </div>
