@@ -15,6 +15,10 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
+  {
+    name: "DSA sheet",
+    link: "https://github.com/TanisqSinghal/Java_DSA",
+  }
 ];
 
 const words = [
