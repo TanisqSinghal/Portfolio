@@ -233,7 +233,7 @@ const testimonials = [
 const socialImgs = [
   {
     name: "insta",
-    url: "https://www.instagram.com/",
+    url: "https://www.instagram.com/tanishak_singla/",
     imgPath: "/images/insta.png",
   },
   {
@@ -243,12 +243,12 @@ const socialImgs = [
   },
   {
     name: "x",
-    url: "https://www.x.com/",
+    url: "https://x.com/SinghalTan38072",
     imgPath: "/images/x.png",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/tanishak-singhal-31462a275/",
     imgPath: "/images/linkedin.png",
   },
 ];
