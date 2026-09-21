@@ -40,14 +40,21 @@ const AnimatedCounter = () => {
             speed={40}
           />
           <TypewriterText
-            text="I am a Software Engineer with a growing focus on AI-driven development and data-oriented solutions. I have built projects using modern web technologies and am currently exploring Machine Learning to create intelligent and efficient systems. My goal is to develop impactful software that combines performance, usability, and innovation. My goal is to stand somewhere in a Tech industry and contribute in it with something special , also like cooking , singing , cricket and lot more..."
+            text="I'm a final-year Computer Science student in Delhi. At the moment I work at Awign, where I build pipelines that turn messy raw capture into clean datasets a model can actually train on, plus small internal tools so the ops and annotation teams can run that work without waiting on an engineer."
             className="text-white-50 text-lg mt-5"
             speed={12}
             delay={250}
           />
 
           <TypewriterText
-            text="Open to software engineering, AI/ML, and data-focused internship and full-time opportunities."
+            text="Before that I spent a summer at IBM on data science and machine learning, and six months as a DSA teaching assistant at Apna College, mostly debugging other people's Java. On my own time I build full-stack things with React, Next.js and Node, usually with an LLM wired in somewhere. Away from the screen it's cooking, singing and cricket."
+            className="text-white-50 text-lg mt-5"
+            speed={12}
+            delay={250}
+          />
+
+          <TypewriterText
+            text="Open to software engineering, AI/ML and data-focused internship or full-time roles."
             className="text-white-50 text-lg mt-10"
             speed={12}
             delay={250}

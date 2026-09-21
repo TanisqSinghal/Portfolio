@@ -152,28 +152,44 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Tanishak got a Data Science level 1 badge from IBM as Successfully completed the Data science and Machine Learning with IBM working professionals",
-    imgPath: "/images/ibm.png",
-    logoPath: "/images/ibm.png",
-    title: "Data Science and Machine Learning Intern",
-    date: "June 2025 - July 2025",
+      "Tanishak is building egocentric data pipelines and internal tools at Awign that take raw capture all the way to model-ready datasets for autonomous agents.",
+    imgPath: "/images/awign.jpg",
+    logoPath: "/images/awign.jpg",
+    title: "Product Management Intern",
+    date: "September 2026 - Present",
     responsibilities: [
-      "Performed Exploratory Data Analysis (EDA) and data visualization on structured datasets.",
-      "Built and evaluated regression and clustering models.",
-      "Implemented Decision Trees and Random Forest models for predictive analysis.",
+      "Working on egocentric data pipelines powering autonomous agents, owning the path from raw capture to model-ready datasets.",
+      "Built automation pipelines converting unstructured raw data into validated datasets, cutting manual processing effort by ~60%.",
+      "Developed standalone internal applications that let non-technical teams run data operations without engineering support.",
+      "Managed data deployment and storage on AWS and Cloudflare R2 buckets, improving retrieval reliability for training workflows.",
+      "Coordinated across engineering, operations, and annotation teams to translate product requirements into shippable specs.",
     ],
   },
   {
     review:
-      "Currently Working",
+      "Tanishak maintained a 4.99/5 student rating while mentoring learners through Java and DSA at Apna College.",
     imgPath: "/images/apna_college_logo.jpeg",
     logoPath: "/images/apna_college_logo.jpeg",
-    title: "Teaching Assistant",
-    date: "February 2025 - Present",
+    title: "Teaching Assistant (DSA - Java)",
+    date: "February 2026 - July 2026",
     responsibilities: [
-      "Solving Students doubts in Java.",
-      "Debugging student code and providing explanations.",
-      "Maintaining high student ratings and daily targets.",
+      "Maintained a 4.99/5 student rating while resolving Java and DSA doubts across multiple cohorts.",
+      "Debugged student code and delivered structured explanations covering recursion, linked lists, trees, graphs, and dynamic programming.",
+      "Consistently met daily resolution targets while sustaining high satisfaction and response-quality scores.",
+    ],
+  },
+  {
+    review:
+      "Tanishak got a Data Science level 1 badge from IBM as Successfully completed the Data science and Machine Learning with IBM working professionals",
+    imgPath: "/images/ibm.png",
+    logoPath: "/images/ibm.png",
+    title: "Data Science & Machine Learning Apprentice",
+    date: "June 2025 - July 2025",
+    responsibilities: [
+      "Built a stock price prediction model achieving 99% accuracy on the held-out test set through feature engineering and hyperparameter tuning.",
+      "Performed Exploratory Data Analysis (EDA) and visualization on structured datasets of 10,000+ records to surface trends and outliers.",
+      "Implemented and benchmarked 5+ regression and clustering models, including Decision Trees and Random Forest, improving accuracy by 18% over baseline.",
+      "Automated data cleaning and preprocessing in Python, reducing dataset preparation time from hours to minutes.",
     ],
   },
   {

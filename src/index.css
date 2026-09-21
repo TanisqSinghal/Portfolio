@@ -294,15 +294,19 @@ section {
   }
 
   .timeline {
-    @apply absolute z-30 h-[110%] -top-10 w-14 md:w-28 bg-black;
+    @apply absolute z-30 h-[110%] -top-10 w-16 md:w-28 bg-black;
   }
 
   .timeline-logo {
-    @apply md:size-20 size-10 flex-none rounded-full flex justify-center items-center md:-translate-y-7 border border-black-50 bg-black-100;
+    @apply md:size-20 size-12 flex-none rounded-full flex justify-center items-center md:-translate-y-7 border border-black-50 bg-black-100 overflow-hidden;
+
+    & img {
+      @apply size-full object-contain md:p-2 p-1.5;
+    }
   }
 
   .exp-card-wrapper {
-    @apply flex flex-col-reverse xl:flex-row xl:gap-20 gap-10 justify-between;
+    @apply flex flex-col-reverse xl:flex-row xl:gap-20 md:gap-10 gap-6 justify-between;
   }
 
   .gradient-edge {
