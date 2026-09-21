@@ -123,7 +123,7 @@ const AnimatedCounter = () => {
               delay={2200}
             />
             <TypewriterText
-              text="April 2022 - March 2023 · Score : 85.66%"
+              text="April 2020 - March 2021 · Score : 85.66%"
               className="text-white-50 text-lg"
               speed={20}
               delay={2600}
