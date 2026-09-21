@@ -82,7 +82,7 @@ const AnimatedCounter = () => {
               delay={700}
             />
             <TypewriterText
-              text="Aug 2023 - Present · CGPA : 9.45"
+              text="Aug 2023 - Present · CGPA : 9.5"
               className="text-white-50 text-lg"
               speed={20}
               delay={1200}
@@ -103,7 +103,27 @@ const AnimatedCounter = () => {
               delay={2200}
             />
             <TypewriterText
-              text="April 2022 - March 2023 · Score : 85%"
+              text="April 2022 - March 2023 · Score : 81.16%"
+              className="text-white-50 text-lg"
+              speed={20}
+              delay={2600}
+            />
+          </div>
+          <div className="text-white-50 text-lg mt-5">
+            <TypewriterText
+              text="Secondary School (CBSE)"
+              className="mb-2 text-white-50 text-lg font-bold mt-5"
+              speed={20}
+              delay={1700}
+            />
+            <TypewriterText
+              text="North Delhi Public School"
+              className="text-white-50 text-lg"
+              speed={14}
+              delay={2200}
+            />
+            <TypewriterText
+              text="April 2022 - March 2023 · Score : 85.66%"
               className="text-white-50 text-lg"
               speed={20}
               delay={2600}
